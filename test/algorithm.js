@@ -1,8 +1,10 @@
+'use strict';
+
 var assert = require('assert');
-var Operator = require('..')
+var Algorithm = require('..');
 
 describe('Operator', function() {
-  var operator = new Operator();
+  var operator = new Algorithm.Operator();
 
   describe('#add()', function() {
     it('should return 4 when input 1 and 3', function() {
