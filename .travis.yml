@@ -6,7 +6,7 @@ node_js:
 
 script:
   - npm install
-  - npm test
+  - node node_modules/.bin/mocha test --reporter spec
 
 cache:
   directories:
